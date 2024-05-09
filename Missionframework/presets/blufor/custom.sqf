@@ -130,6 +130,9 @@ buildings = [
     ["BNA_KC_Flag_KeeliCompany_Pole",0,0,0],
     ["BNA_KC_Flag_KeeliCompany_Horizontal",0,0,0],
     ["BNA_KC_Flag_KeeliCompany_Vertical",0,0,0],
+    ["BNA_KC_Gonk_Permissions",0,0,0],
+    ["BNA_KC_Utility_Arsenal",0,0,0],
+    ["BNA_KC_Utility_FullHeal",0,0,0],
     ["Land_Medevac_house_V1_F",0,0,0],
     ["Land_Medevac_HQ_V1_F",0,0,0],
     ["Flag_RedCrystal_F",0,0,0],
@@ -197,7 +200,9 @@ buildings = [
     ["Land_Sign_WarningMilAreaSmall_F",0,0,0],
     ["Land_Sign_WarningMilitaryVehicles_F",0,0,0],
     ["Land_Razorwire_F",0,0,0],
-    ["Land_ClutterCutter_large_F",0,0,0]
+    ["Land_ClutterCutter_large_F",0,0,0],
+    ["Land_ClutterCutter_medium_F",0,0,0],
+    ["Land_ClutterCutter_small_F",0,0,0]
 ];
 
 support_vehicles = [
@@ -213,9 +218,14 @@ support_vehicles = [
     [KP_liberation_plane_slot_building,500,0,0],
     ["BNA_KC_Resupply_SquadMedical",25,0,0],
     ["BNA_KC_Resupply_PlatoonMedical",50,0,0],
-    ["ACE_Box_82mm_Mo_HE",50,40,0],
-    ["ACE_Box_82mm_Mo_Smoke",50,10,0],
-    ["ACE_Box_82mm_Mo_Illum",50,10,0],
+    ["BNA_KC_Resupply_SquadAmmo",0,25,0],
+    ["BNA_KC_Resupply_PlatoonAmmo",0,50,0],
+    ["BNA_KC_Resupply_SquadAmmo_Heavy",0,40,0],
+    ["BNA_KC_Resupply_PlatoonAmmo_Heavy",0,80,0],
+    ["BNA_KC_Resupply_DisposableLaunchers",0,80,0],
+    // ["ACE_Box_82mm_Mo_HE",50,40,0],    // TODO: Replace with KC mortar rounds
+    // ["ACE_Box_82mm_Mo_Smoke",50,10,0],
+    // ["ACE_Box_82mm_Mo_Illum",50,10,0],
     ["ACE_Wheel",10,0,0],
     ["ACE_Track",10,0,0],
     ["BNA_KC_Gammoth_Repair",325,0,75],                                 // Gammoth Repair
